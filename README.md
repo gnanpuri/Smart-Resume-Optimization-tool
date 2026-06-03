@@ -1,16 +1,9 @@
 # Smart-Resume-Optimization-tool
 AI-powered resume optimizer that matches your resume to job descriptions using RAG pipeline, ChromaDB, Groq LLaMA and Streamlit.
-# 📄 Smart Resume Optimization Tool
+# Smart Resume Optimization Tool
 
 An AI-powered resume optimization tool that analyzes your resume against a job description and provides a match score, missing keywords, and actionable improvement suggestions — all powered by a RAG (Retrieval-Augmented Generation) pipeline.
 
----
-
-## 🚀 Live Demo
-
-> Run locally using the setup instructions below.
-
----
 
 ## 🧠 How It Works
 
@@ -34,15 +27,15 @@ Display Results in Streamlit UI
 
 ---
 
-## ✨ Features
+## Features
 
-- 📤 Upload resume as **PDF or DOCX** file
-- 📋 Paste any **job description**
-- 📊 Get a **match score** (0-100%)
-- ✅ See your **strong points** that match the job
-- ❌ Identify **missing keywords** from the job description
-- ✍️ Get **improved bullet point suggestions**
-- 💡 Receive **overall application advice**
+-  Upload resume as **PDF or DOCX** file
+-  Paste any **job description**
+-  Get a **match score** (0-100%)
+-  See your **strong points** that match the job
+-  Identify **missing keywords** from the job description
+-  Get **improved bullet point suggestions**
+-  Receive **overall application advice**
 - 📥 **Download** the full analysis report
 
 ---
@@ -61,7 +54,7 @@ Display Results in Streamlit UI
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 smart-resume-tool/
@@ -76,7 +69,7 @@ smart-resume-tool/
 
 ---
 
-## ⚙️ Setup Instructions
+## Setup Instructions
 
 ### Prerequisites
 - Python 3.8 or higher
@@ -117,7 +110,7 @@ Open your browser at `http://localhost:8501`
 
 ---
 
-## 📦 Requirements
+##  Requirements
 
 Create a `requirements.txt` file with:
 ```
@@ -136,7 +129,7 @@ python-dotenv
 
 ---
 
-## 🔑 Getting a Free Groq API Key
+##  Getting a Free Groq API Key
 
 1. Go to [console.groq.com](https://console.groq.com)
 2. Sign up for a free account
@@ -145,7 +138,7 @@ python-dotenv
 
 ---
 
-## 💡 Key Concepts
+##  Key Concepts
 
 ### RAG (Retrieval-Augmented Generation)
 Instead of sending the entire resume to the AI at once, the tool splits it into chunks, stores them in ChromaDB, and retrieves only the most relevant sections based on the job description. This improves accuracy and reduces token usage.
@@ -158,7 +151,7 @@ ChromaDB finds the most relevant resume sections by comparing vector similarity 
 
 ---
 
-## 🖥 Usage
+##  Usage
 
 1. Run the app with `streamlit run app.py`
 2. Upload your resume (PDF or DOCX)
@@ -169,13 +162,13 @@ ChromaDB finds the most relevant resume sections by comparing vector similarity 
 
 ---
 
-## 📸 Screenshots
+##  Screenshots
 
 > Add screenshots of your app here after running it locally.
 
 ---
 
-## 🔮 Future Improvements
+##  Future Improvements
 
 - [ ] Support for multiple resume versions
 - [ ] ATS (Applicant Tracking System) score simulation
@@ -185,7 +178,7 @@ ChromaDB finds the most relevant resume sections by comparing vector similarity 
 
 ---
 
-## 👨‍💻 Author
+##  Author
 
 **Gnan Sai Konda**
 - 📧 Gnansaikonda23@gmail.com
